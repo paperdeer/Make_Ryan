@@ -1,0 +1,132 @@
+*{
+    margin:0;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ear{
+    display: flex;
+}
+#eyebrow{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 80px;
+}
+#eyebrow > div{
+    width: 70px;
+    height: 13px;
+    border-radius: 30px;
+    border:1px solid black;
+    background-color: black;
+}
+#eye{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 120px;
+
+}
+#eye > div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+}
+#ear_left{
+    z-index: 1;
+}
+#ear_right{
+    z-index: 1;
+}
+#circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 4px solid black;
+    background-color: orange;
+    position: relative;
+    margin-top: 50px;
+    align-items: baseline;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+#ear_left{
+    z-index: 1;
+}
+#eye_left{
+    z-index: 5;
+}
+#eye_right{
+    z-index: 5;
+}
+#ear > div{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    border: 4px solid black;
+    background-color: orange;
+    
+}
+#ear{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    position: absolute;
+    margin-top: -150px;
+}
+#mustache > div{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 5px solid black;
+    background-color: white;
+}
+#mustache{
+    display: flex;
+    /* position: absolute; */
+    /* top: 60%;
+    transform: translate(-50%, -50%);
+    left: 50%; */
+}
+#left_mustache{
+    z-index: 2;
+    position: absolute;
+    top: 53%;
+    left: 37%;
+}
+#right_mustache{
+    z-index: 2;
+    position: absolute;
+    top: 53%;
+    left: 47%;
+}
+#erase{
+    width: 20px;
+    height: 29.5px;
+    border-radius: 5px;
+    background-color: white;
+    top:57%;
+    left: 47%;
+    z-index: 2;
+    position: absolute;
+}
+#nose{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    z-index: 6;
+    position: absolute;
+    top: 50%;
+}
